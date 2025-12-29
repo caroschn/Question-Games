@@ -33,10 +33,9 @@ const questions = [
 ];
 
 const btn = document.getElementById("next-btn");
-const container = document.getElementById("question-container");
+const questionText = document.getElementById("question-text");
 
 btn.addEventListener("click", () => {
-    const question = questions[Math.floor(Math.random() * questions.length)];
-    container.innerHTML = `<p>${question}</p><button id="next-btn">Next Question</button>`;
-    document.getElementById("next-btn").addEventListener("click", arguments.callee);
+    const randomIndex = Math.floor(Math.random() * questions.length);
+    questionText.textContent = questions[randomIndex];
 });

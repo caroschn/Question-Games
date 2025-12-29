@@ -1,17 +1,42 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2822
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+const questions = [
+    // Soft-launch deep
+    "What’s a habit you picked up from someone you don’t talk to anymore?",
+    "What’s something you used to judge people for that you don’t anymore?",
+    "What kind of compliment do you remember years later?",
+    "What’s a small moment that made you feel weirdly proud of yourself?",
+    "What’s something you care about way more than people expect you to?",
+    
+    // Mind-exploring
+    "When you’re overwhelmed, do you isolate or get louder?",
+    "Do you think you’re more like your younger self or less like them now?",
+    "What’s something you’re still unlearning?",
+    "What kind of person do you feel safest being?",
+    "What’s a version of you that only certain people get to see?",
+    
+    // Slightly unhinged
+    "What’s a hill you’ll die on that doesn’t actually matter?",
+    "What’s a personality trait you have that would be annoying to date?",
+    "What’s something you pretend not to care about but totally do?",
+    "If someone described you wrong, what would bother you most?",
+    
+    // Fun WYR
+    "WYR be deeply understood by one person or mildly liked by everyone?",
+    "WYR lose your phone for a year or lose your best friend for a month?",
+    "WYR be honest and hurt people sometimes or lie to keep the peace?",
+    "WYR know exactly how people see you or never know at all?",
+    
+    // Tell me a story
+    "What’s a random memory that lives in your head rent-free?",
+    "What’s the most “out of character” thing you’ve ever done?",
+    "When was the last time you surprised yourself?",
+    "What’s a moment that felt small then but big later?"
+];
 
-\f0\fs24 \cf0 const cards = document.querySelectorAll(".card");\
-\
-cards.forEach(card => \{\
-  card.classList.add("hidden");\
-\
-  card.addEventListener("click", () => \{\
-    card.classList.toggle("hidden");\
-  \});\
-\});\
-}
+const btn = document.getElementById("next-btn");
+const container = document.getElementById("question-container");
+
+btn.addEventListener("click", () => {
+    const question = questions[Math.floor(Math.random() * questions.length)];
+    container.innerHTML = `<p>${question}</p><button id="next-btn">Next Question</button>`;
+    document.getElementById("next-btn").addEventListener("click", arguments.callee);
+});

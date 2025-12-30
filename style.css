@@ -77,4 +77,49 @@ h1 {
     line-height: 1.4;          /* makes multi-line text easier to read */
 }
 
+/* INTRO SCREEN */
+.intro {
+    height: 100vh;
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.intro-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    max-width: 500px;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.intro-btn {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+    background: #8B0000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.intro-btn:hover {
+    background: white;
+    color: #8B0000;
+}
+
+/* HIDE / SHOW */
+.hidden {
+    display: none;
+}
 

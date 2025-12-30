@@ -19,24 +19,26 @@
     </div>
 
     <!-- GAME SCREEN -->
-    <div id="game-screen" class="container hidden">
-        <h1>Question Games</h1>
+    <div id="game-screen" class="hidden">
+        <div class="container">
+            <h1>Question Games</h1>
 
-        <p class="welcome-text">
-            Hi Albe! I hope this game is fun and lets us learn more about each other! I like you :)
-        </p>
+            <p class="welcome-text">
+                Hi Albe! I hope this game is fun and lets us learn more about each other! I like you :)
+            </p>
 
-        <div class="section-buttons">
-            <button onclick="selectSection('Deep & Mindful')">Deep & Mindful</button>
-            <button onclick="selectSection('Funny & Unhinged')">Funny & Unhinged</button>
-            <button onclick="selectSection('Memory & Cherished')">Memory & Cherished</button>
-            <button onclick="selectSection('Exes & Dating')">Exes & Dating</button>
-            <button onclick="selectSection('Crazy & Adventurous')">Crazy & Adventurous</button>
-            <button onclick="selectSection('Sexual & Unexpected')">Sexual & Unexpected</button>
+            <div class="section-buttons">
+                <button onclick="selectSection('Deep & Mindful')">Deep & Mindful</button>
+                <button onclick="selectSection('Funny & Unhinged')">Funny & Unhinged</button>
+                <button onclick="selectSection('Memory & Cherished')">Memory & Cherished</button>
+                <button onclick="selectSection('Exes & Dating')">Exes & Dating</button>
+                <button onclick="selectSection('Crazy & Adventurous')">Crazy & Adventurous</button>
+                <button onclick="selectSection('Sexual & Unexpected')">Sexual & Unexpected</button>
+            </div>
+
+            <p id="question-text">Pick a section above to start!</p>
+            <button id="next-btn">Next Question</button>
         </div>
-
-        <p id="question-text">Pick a section above to start!</p>
-        <button id="next-btn">Next Question</button>
     </div>
 
     <script src="script.js"></script>

@@ -9,9 +9,19 @@
 <body>
     <div class="container">
         <h1>Question Games</h1>
-        <p id="question-text">Hi there albe! I thought this could be a fun way to learn about each other :) <3</p>
+
+        <div class="section-buttons">
+            <button onclick="selectSection('Soft-launch deep')">Soft-launch deep</button>
+            <button onclick="selectSection('Mind-exploring')">Mind-exploring</button>
+            <button onclick="selectSection('Unhinged & funny')">Funny</button>
+            <button onclick="selectSection('Fun WYR')">WYR</button>
+            <button onclick="selectSection('Tell me a story')">Story</button>
+        </div>
+
+        <p id="question-text">Choose a section to start!</p>
         <button id="next-btn">Next Question</button>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>

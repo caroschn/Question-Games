@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    background: #ff4d4d; /* bright red box */
+    background: #990000; /* bright red box */
     padding: 2rem 3rem;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(255, 0, 0, 0.5); /* glowing effect */
@@ -41,6 +41,6 @@ button {
 }
 
 button:hover {
-    background: #ff4d4d; /* red button on hover */
+    background: #990000; /* red button on hover */
     color: #ffffff; /* white text on hover */
 }

@@ -30,6 +30,35 @@ const questions = [
     "What’s the most “out of character” thing you’ve ever done?",
     "When was the last time you surprised yourself?",
     "What’s a moment that felt small then but big later?"
+
+    //Even more 
+    "What’s the dumbest fight you’ve ever gotten into?",
+"If you had to survive a zombie apocalypse with one random item in your room, what is it and why?",
+"What’s the weirdest thing you’ve done for a dare or a bet?",
+"If your life had a theme song whenever you entered a room, what would it be?",
+"Have you ever laughed so hard you cried at something completely stupid?",
+"What’s a random memory that makes you smile even if it was awkward at the time?",
+"What’s the first memory you can actually remember clearly?",
+"Is there a “secret happy place” memory that you think about when stressed?",
+"Which friendship or moment from childhood do you wish you could relive for a day?",
+"Have you ever kept a memory just because it’s funny or ridiculous, not meaningful?",
+"What’s the weirdest reason a past relationship ended?",
+"Have you ever stayed friends with an ex? If yes, how’s that going?",
+"What’s the most “that was a mistake” dating moment you’ve had?",
+"Would you ever date someone from your past again if everything lined up?",
+"What’s the thing you learned about yourself from an ex that stuck with you?",
+"Have you ever done something completely illegal or wild just for fun?",
+"What’s the most spontaneous thing you’ve ever done?",
+"If you could erase one embarrassing memory, would you? Which one?",
+"Ever done something you immediately regretted but can laugh about now?",
+"Would you ever go on a “dangerous adventure” with no plan?",
+"What’s the kinkiest thing you’ve done or want to try?",
+"Ever had a crush on someone completely inappropriate?",
+"Have you ever sexted someone by accident or shame?",
+"Anal—ever done it, would you, thoughts?",
+"If you could make a sexual experiment completely risk-free, what would it be?",
+"Weirdest place you’ve ever hooked up or thought about hooking up?"
+
 ];
 
 const btn = document.getElementById("next-btn");

@@ -27,7 +27,7 @@ const questionSections = {
         "If you had to survive a zombie apocalypse with one random item in your room, what is it and why?",
         "What’s the weirdest thing you’ve done for a dare or a bet?",
         "If your life had a theme song whenever you entered a room, what would it be?",
-        "Have you ever laughed so hard you cried at something completely stupid?"
+        "Have you ever laughed so hard you cried at something completely stupid?",
         "Who is the most annoying member of your family and why?",
         "Would you rather let me choose your outfit for a week or decide your next haircut?",
         "Would you rather be mildly embarrassed forever or deeply embarrassed once in front of everyone you know?",
@@ -49,11 +49,11 @@ const questionSections = {
         "What’s the weirdest reason a past relationship ended?",
         "Have you ever stayed friends with an ex?",
         "What’s the most 'that was a mistake' dating moment you’ve had?",
-        "What’s something you learned about yourself from an ex?"
+        "What’s something you learned about yourself from an ex?",
         "Would you rather spend a night cuddling or a night talking deeply?",
         "Would you rather have true love with a guaranteed broken heart or never love at all?",
         "How many people have you kissed?",
-        "Where do you like to be kissed?"
+        "Where do you like to be kissed?",
         "Would you ever date someone from your past again if everything lined up?"
     ],
     "Crazy & Adventurous": [
@@ -61,7 +61,7 @@ const questionSections = {
         "What’s the most spontaneous thing you’ve ever done?",
         "If you could erase one embarrassing memory, would you?",
         "Ever done something you immediately regretted but can laugh about now?",
-        "Would you ever go on a dangerous adventure with no plan?"
+        "Would you ever go on a dangerous adventure with no plan?",
         "Would you rather disappear for a year or have everyone know everything about you?",
         "If you could restart one year of your life, would you?"
     ],
@@ -69,7 +69,7 @@ const questionSections = {
         "What’s the kinkiest thing you’ve done or want to try?",
         "Anal—ever done it, would you, thoughts?",
         "If you could make a sexual experiment completely risk-free, what would it be?",
-        "Weirdest place you’ve ever hooked up or thought about hooking up?"
+        "Weirdest place you’ve ever hooked up or thought about hooking up?",
         "One sex act you never want to try again?",
         "Would you play strip poker?",
         "Have you had sex to music? Which songs?",

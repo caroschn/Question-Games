@@ -1,9 +1,10 @@
 /* BASE */
 body {
-    font-family: 'Segoe UI', sans-serif;
-    background: black;
     margin: 0;
+    background: black;
+    font-family: 'Segoe UI', sans-serif;
 }
+
 
 /* FULL-SCREEN LAYERS */
 .intro,

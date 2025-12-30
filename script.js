@@ -15,7 +15,7 @@ const questionSections = {
         "What’s something you’re still unlearning?",
         "What’s a version of you that only certain people get to see?",
         "What’s a personality trait you have that would be annoying to date?",
-        "If someone described you wrong, what would bother you most?"
+        "If someone described you wrong, what would bother you most?",
         "Do you think destiny is real?",
         "Do you trust people easily?",
         "What’s a fear of yours in relationships?",
@@ -54,7 +54,7 @@ const questionSections = {
         "Would you rather have true love with a guaranteed broken heart or never love at all?",
         "How many people have you kissed?",
         "Where do you like to be kissed?"
-        "Would you ever date someone from your past again if everything lined up?",
+        "Would you ever date someone from your past again if everything lined up?"
     ],
     "Crazy & Adventurous": [
         "Have you ever done something completely illegal or wild just for fun?",

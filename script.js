@@ -1,3 +1,8 @@
+function startGame() {
+    document.getElementById("intro-screen").classList.add("hidden");
+    document.getElementById("game-screen").classList.remove("hidden");
+}
+
 const questionSections = {
     "Deep & Mindful": [
         // Soft-launch deep

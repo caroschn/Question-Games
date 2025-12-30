@@ -1,85 +1,19 @@
+/* BASE */
 body {
     font-family: 'Segoe UI', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: #000000; /* black background */
+    background: black;
     margin: 0;
 }
 
-.container {
-    background: #8B0000; /* dark red box */
-    padding: 2rem 3rem;
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5); /* glowing effect */
-    max-width: 700px;
-    text-align: center;
-}
-
-h1 {
-    color: #ffffff;
-    margin-bottom: 1rem;
-}
-
-.section-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 1.5rem;
-    gap: 0.5rem;
-}
-
-.section-buttons button {
-    padding: 0.5rem 1rem;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    background: #ffffff;
-    color: #8B0000;
-    transition: 0.2s;
-}
-
-.section-buttons button:hover {
-    background: #8B0000;
-    color: #ffffff;
-}
-
-#question-text {
-    font-size: 1.2rem;
-    color: #ffffff;
-    margin-top: 1rem;
-}
-
-#next-btn {
-    margin-top: 1.5rem;
-    padding: 0.7rem 1.5rem;
-    font-size: 1rem;
-    cursor: pointer;
-    background: #ffffff;
-    color: #8B0000;
-    border: none;
-    border-radius: 8px;
-    transition: 0.2s;
-}
-
-#next-btn:hover {
-    background: #8B0000;
-    color: #ffffff;
-}
-
-.welcome-text {
-    color: #ffffff;            /* white text */
-    font-size: 1.1rem;         /* slightly bigger for visibility */
-    margin: 0 0 1.5rem 0;      /* space below the text */
-    font-style: italic;        /* keeps it friendly and personal */
-    text-align: center;        /* center the text */
-    line-height: 1.4;          /* makes multi-line text easier to read */
+/* FULL-SCREEN LAYERS */
+.intro,
+#game-screen {
+    position: fixed;
+    inset: 0;
 }
 
 /* INTRO SCREEN */
 .intro {
-    height: 100vh;
     background: black;
     color: white;
     display: flex;
@@ -118,8 +52,70 @@ h1 {
     color: #8B0000;
 }
 
-/* HIDE / SHOW */
+/* GAME SCREEN */
+#game-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* RED BOX */
+.container {
+    background: #8B0000;
+    padding: 2rem 3rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+    max-width: 700px;
+    text-align: center;
+}
+
+/* TEXT */
+h1 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.welcome-text {
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+    line-height: 1.4;
+}
+
+/* BUTTONS */
+.section-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.section-buttons button,
+#next-btn {
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: white;
+    color: #8B0000;
+    transition: 0.2s;
+}
+
+.section-buttons button:hover,
+#next-btn:hover {
+    background: #8B0000;
+    color: white;
+}
+
+#question-text {
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 1rem;
+}
+
+/* HIDE */
 .hidden {
     display: none;
 }
-

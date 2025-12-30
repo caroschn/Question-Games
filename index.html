@@ -7,10 +7,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Question Games</h1>
-          <p class="welcome-text">Hi Albe! I hope this game is fun and lets us learn more about each other! I like you :)</p>
 
+    <!-- INTRO SCREEN -->
+    <div id="intro-screen" class="intro">
+        <h1 class="intro-title">Hi.</h1>
+        <p class="intro-text">
+            I made this little game for us.<br>
+            I hope it’s fun, a little silly, and helps us learn more about each other.
+        </p>
+        <button class="intro-btn" onclick="startGame()">Let’s play</button>
+    </div>
+
+    <!-- GAME SCREEN -->
+    <div id="game-screen" class="container hidden">
+        <h1>Question Games</h1>
+
+        <p class="welcome-text">
+            Hi Albe! I hope this game is fun and lets us learn more about each other! I like you :)
+        </p>
 
         <div class="section-buttons">
             <button onclick="selectSection('Deep & Mindful')">Deep & Mindful</button>
@@ -20,7 +34,7 @@
             <button onclick="selectSection('Crazy & Adventurous')">Crazy & Adventurous</button>
             <button onclick="selectSection('Sexual & Unexpected')">Sexual & Unexpected</button>
         </div>
-        
+
         <p id="question-text">Pick a section above to start!</p>
         <button id="next-btn">Next Question</button>
     </div>

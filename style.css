@@ -69,9 +69,12 @@ h1 {
 }
 
 .welcome-text {
-    color: #ffffff;
-    font-size: 1rem;
-    margin-bottom: 1.5rem;
-    font-style: italic;
+    color: #ffffff;            /* white text */
+    font-size: 1.1rem;         /* slightly bigger for visibility */
+    margin: 0 0 1.5rem 0;      /* space below the text */
+    font-style: italic;        /* keeps it friendly and personal */
+    text-align: center;        /* center the text */
+    line-height: 1.4;          /* makes multi-line text easier to read */
 }
+
 

@@ -20,7 +20,7 @@ const questionSections = {
         "Do you trust people easily?",
         "What’s a fear of yours in relationships?",
         "Growing up, were you closer to your mum or your dad?",
-        "What’s one thing you like about me the most?"
+        "What’s one thing you like about me / that i do?"
     ],
     "Funny & Unhinged": [
         "What’s the dumbest fight you’ve ever gotten into?",

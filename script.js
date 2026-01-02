@@ -27,7 +27,7 @@ const questionSections = {
         "If you had to survive a zombie apocalypse with one random item in your room, what is it and why?",
         "What’s the weirdest thing you’ve done for a dare or a bet?",
         "If your life had a theme song whenever you entered a room, what would it be?",
-        "Have you ever laughed so hard you cried at something completely stupid?",
+        "What does being hard actually feel like?",
         "Who is the most annoying member of your family and why?",
         "Would you rather let me choose your outfit for a week or decide your next haircut?",
         "Would you rather be mildly embarrassed forever or deeply embarrassed once in front of everyone you know?",
